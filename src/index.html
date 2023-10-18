@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO(JSの場合)</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="inputArea">
+      <input id="addText" placeholder="TODOを入力" />
+      <button id="addButton">追加</button>
+    </div>
+
+    <div class="incompleteArea">
+      <p class="title">未完了のTODO</p>
+      <ul id="incompleteTODOList">
+        <div class="listRow">
+          <li>TODOです。</li>
+          <button>完了</button>
+          <button>削除</button>
+        </div>
+      </ul>
+    </div>
+
+    <div class="completeArea">
+      <p class="title">完了したTODO</p>
+      <ul id="completeTODOList">
+        <div class="listRow">
+          <li>TODOでした</li>
+          <button>戻す</button>
+        </div>
+      </ul>
+    </div>
+
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>
